@@ -11,17 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 0) do
-=======
 ActiveRecord::Schema.define(version: 20141109032901) do
->>>>>>> b7cc79841e83ecf4b4dd98d05c6d9a4e28e2e36a
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-<<<<<<< HEAD
-=======
   create_table "comments", force: true do |t|
     t.text    "text"
     t.integer "image_set_id"
@@ -75,5 +69,4 @@ ActiveRecord::Schema.define(version: 20141109032901) do
   add_index "votes", ["votable_id", "votable_type", "vote_scope"], name: "index_votes_on_votable_id_and_votable_type_and_vote_scope", using: :btree
   add_index "votes", ["voter_id", "voter_type", "vote_scope"], name: "index_votes_on_voter_id_and_voter_type_and_vote_scope", using: :btree
 
->>>>>>> b7cc79841e83ecf4b4dd98d05c6d9a4e28e2e36a
 end
