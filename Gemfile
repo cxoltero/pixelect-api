@@ -12,11 +12,11 @@ gem 'pg'
 
 # Heroku
 
-<<<<<<< HEAD
+
 gem 'rails_12factor'
 
-=======
->>>>>>> b7cc79841e83ecf4b4dd98d05c6d9a4e28e2e36a
+
+
 # Devise
 
 gem 'devise'
