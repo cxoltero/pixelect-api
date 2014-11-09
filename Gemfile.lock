@@ -175,9 +175,5 @@ DEPENDENCIES
   pry-rails
   rails (= 4.2.0.beta2)
   rails-api
-<<<<<<< HEAD
-=======
-  rails_12factor
   rspec-rails
->>>>>>> 4c8cb2b18a1cd4113035a3a63f261f24650d7455
   spring
