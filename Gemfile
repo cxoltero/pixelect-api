@@ -22,6 +22,16 @@ gem 'devise'
 
 gem 'acts_as_votable'
 
+
+# for image uploading
+gem 'carrierwave'
+
+#for aws cloud storage
+gem 'fog'
+
+#for photo resizing
+gem 'mini_magick'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
