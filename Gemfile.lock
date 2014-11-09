@@ -115,7 +115,10 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.1)
       loofah (~> 2.0)
+<<<<<<< HEAD
     rails_12factor (0.0.2)
+=======
+>>>>>>> b7cc79841e83ecf4b4dd98d05c6d9a4e28e2e36a
       rails_serve_static_assets
       rails_stdout_logging
     rails_serve_static_assets (0.0.2)
@@ -176,6 +179,9 @@ DEPENDENCIES
   pry-rails
   rails (= 4.2.0.beta2)
   rails-api
+<<<<<<< HEAD
   rails_12factor
+=======
+>>>>>>> b7cc79841e83ecf4b4dd98d05c6d9a4e28e2e36a
   rspec-rails
   spring
