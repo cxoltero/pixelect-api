@@ -12,7 +12,10 @@ gem 'pg'
 
 # Heroku
 
+
 gem 'rails_12factor'
+
+
 
 # Devise
 
