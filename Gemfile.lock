@@ -40,10 +40,6 @@ GEM
     arel (6.0.0.beta2)
     bcrypt (3.1.7)
     builder (3.2.2)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3d9711b... added rspec, pry gems
     byebug (3.5.1)
       columnize (~> 0.8)
       debugger-linecache (~> 1.2)
@@ -51,11 +47,6 @@ GEM
     coderay (1.1.0)
     columnize (0.8.9)
     debugger-linecache (1.2.0)
-<<<<<<< HEAD
-=======
->>>>>>> 44bb608... update gemlock
-=======
->>>>>>> 3d9711b... added rspec, pry gems
     devise (3.4.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -63,14 +54,7 @@ GEM
       responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
-<<<<<<< HEAD
-<<<<<<< HEAD
     diff-lcs (1.2.5)
-=======
->>>>>>> 44bb608... update gemlock
-=======
-    diff-lcs (1.2.5)
->>>>>>> 3d9711b... added rspec, pry gems
     erubis (2.7.0)
     factory_girl (4.5.0)
       activesupport (>= 3.0.0)
@@ -131,22 +115,7 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.1)
       loofah (~> 2.0)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    rails_12factor (0.0.3)
-=======
     rails_12factor (0.0.2)
->>>>>>> 230e5ff... added rails_12factor for heroku
-=======
-    rails_12factor (0.0.3)
->>>>>>> d01cc18... Added the upstream
-=======
-    rails_12factor (0.0.3)
-=======
-    rails_12factor (0.0.2)
->>>>>>> 230e5ff... added rails_12factor for heroku
->>>>>>> 11e8ee1... added rails_12factor for heroku
       rails_serve_static_assets
       rails_stdout_logging
     rails_serve_static_assets (0.0.2)
@@ -159,10 +128,6 @@ GEM
     rake (10.3.2)
     responders (2.0.0)
       railties (>= 4.2.0.alpha, < 5)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3d9711b... added rspec, pry gems
     rspec-core (3.1.7)
       rspec-support (~> 3.1.0)
     rspec-expectations (3.1.2)
@@ -180,11 +145,6 @@ GEM
       rspec-support (~> 3.1.0)
     rspec-support (3.1.2)
     slop (3.6.0)
-<<<<<<< HEAD
-=======
->>>>>>> 44bb608... update gemlock
-=======
->>>>>>> 3d9711b... added rspec, pry gems
     spring (1.1.3)
     sprockets (2.12.3)
       hike (~> 1.2)
@@ -207,43 +167,15 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
-<<<<<<< HEAD
   acts_as_votable
   devise
   factory_girl_rails
   faker
-<<<<<<< HEAD
-=======
-=======
-  acts_as_votable
->>>>>>> a80cf25... installed acts_as_votable
-  devise
->>>>>>> 44bb608... update gemlock
-=======
->>>>>>> 3d9711b... added rspec, pry gems
   pg
   pry-byebug
   pry-rails
   rails (= 4.2.0.beta2)
   rails-api
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   rails_12factor
-=======
->>>>>>> b7cc798... Final Merges
   rspec-rails
-=======
-  rails_12factor
-<<<<<<< HEAD
->>>>>>> d01cc18... Added the upstream
-=======
-=======
-  rails_12factor
-=======
->>>>>>> b7cc798... Final Merges
->>>>>>> 9df9fa7... Created all controllers with these methods: Show, Index, Create model_name_params. All working on my local server.
-  rspec-rails
->>>>>>> 3d9711b... added rspec, pry gems
   spring
