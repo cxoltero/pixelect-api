@@ -9,3 +9,9 @@ CarrierWave.configure do |config|
 
   config.fog_directory  = ENV['S3_BUCKET']
 end
+
+
+#to add the images in nested form we need to add some information to the controllers.
+# go to
+# https://u.osu.edu/hasnan.1/2014/03/30/rails-4-multiple-file-upload-with-carrierwave-nested-form-and-jquery-file-upload/
+# for more info
