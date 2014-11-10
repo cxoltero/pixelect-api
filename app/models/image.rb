@@ -11,6 +11,7 @@ class Image < ActiveRecord::Base
 
   acts_as_votable
   # this is from Carrierwave to be able to upload images
+  validate :image_set, presence: true
   mount_uploader :image, ImageUploader
 
 end
