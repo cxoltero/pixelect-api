@@ -34,6 +34,7 @@ gem 'fog'
 
 #for photo resizing
 gem 'mini_magick'
+gem 'rmagick', '~> 2.13.3'
 
 group :development, :test do
   gem 'rspec-rails'

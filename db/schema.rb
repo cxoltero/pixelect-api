@@ -32,6 +32,9 @@ ActiveRecord::Schema.define(version: 20141109142934) do
 
   create_table "images", force: true do |t|
     t.integer "image_set_id"
+# for imagemagick
+
+    # t.string "image"
   end
 
   add_index "images", ["image_set_id"], name: "index_images_on_image_set_id", using: :btree

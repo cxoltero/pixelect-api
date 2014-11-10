@@ -1,5 +1,6 @@
 class Image < ActiveRecord::Base
   # if we add a attr_accessor, we have to make sure we add :image to it
+  attr_accessor :image
   # when we do our forms we have to make sure to add the following:
             # <% f.file_field :image %>
   #also to handle file attachments we have to pass a multipart option

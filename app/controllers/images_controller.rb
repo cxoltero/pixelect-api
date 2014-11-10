@@ -1,10 +1,11 @@
 class ImagesController < ApplicationController
+# Carrierwave settings
+
 
   # GET /images
   # GET /images.json
   def index
     @images = Image.all
-
     render json: @images
   end
 
