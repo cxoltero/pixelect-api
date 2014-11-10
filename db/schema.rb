@@ -33,7 +33,6 @@ ActiveRecord::Schema.define(version: 20141109142934) do
   create_table "images", force: true do |t|
     t.integer "image_set_id"
 # for imagemagick
-
     # t.string "image"
   end
 
