@@ -21,6 +21,8 @@ class ImagesController < ApplicationController
   # POST /images.json
   def create
     @image = Image.create(image_params)
+    @image.save
+
   end
 
   private
